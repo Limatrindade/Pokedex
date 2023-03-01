@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Indie+Flower&family=Kenia&family=Oxygen:wght@700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #7a7aef;
+    font-family: 'Indie Flower', cursive;
+    width: 100vw;
+    height: 100vh;
+}
+
+.box-principal {
+    border: 1px solid orange;
+    background-color: white;
+    width: 80vw;
+    max-height: 10000%;
+    margin-left: 10vw;
+    margin-top: 15vh;
+}
+
+.pokedex-titulo {
+    //border: 1px solid red;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pokedex-titulo p {
+    //border: 1px solid violet;
+    font-size: 2em;
+    font-weight: bold;
+    color: red;    
+}
+
+.inp {
+    //border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-item: center;
+}
+
+.inp input {
+    width: 300px;
+    height: 30px;
+    text-align: center;
+    border: 2px solid black;
+}
+
+.box-pokedex {
+    //border: 5px solid blue;
+    //background-color: orange;
+    width: 80vw;
+    height: 100%;
+    padding: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.box-pokedex-img {
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: gray;
+    height: 30%;
+    width: 30%;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.box-pokedex-img img {
+    //border: 1px solid red;
+    margin-left: 5em;
+    margin-top: 1em;
+}
+
+.box-pokedex-img p {
+    text-align: center;
+    font-weight: bold;
+}
+
+
+

@@ -1,0 +1,63 @@
+for(var i = 0; i < allpokemon.length; i++) {
+            fetch("https://pokeapi.co/api/v2/pokemon/[i]/")
+            .then(response => response.json())
+            .then(pokemons => {
+    
+               
+                console.log("testando a segunda requisição")
+                //console.log(pokemons)
+                //console.log(pokemons.sprites.front_default)
+                /*
+                propriedadesPokemon.push({nome: valor.name, url: pokemons.sprites.front_default})
+                console.log(propriedadesPokemon)
+                */
+            }) 
+        }
+
+var propriedadesPokemon = []
+
+propriedadesPokemon.push({
+    nome: valor.name,
+    imagem: valor.url
+})
+
+//console.log(allpokemon)
+//console.log(allpokemon.results)
+//console.log(allpokemon.results.length)
+//console.log(allpokemon.results[0])
+
+fetch(valor.url)
+    .then(response => response.json())
+    .then(pokemons => {
+        //console.log(pokemons.sprites.front_default)
+    }) 
+
+                <div class="box-pokedex-img1">
+                    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/132.png" alt="foto do pokemon" width="100%">
+                    <p class="nome-pokemon">nome do pokemon</p>
+                </div>
+                <div class="box-pokedex-img2">
+                    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/132.png" alt="foto do pokemon" width="100%">
+                    <p class="nome-pokemon">nome do pokemon</p>
+                </div>
+                <div class="box-pokedex-img3">
+                    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/132.png" alt="foto do pokemon" width="100%">
+                    <p class="nome-pokemon">nome do pokemon</p>
+                </div>
+                <div class="box-pokedex-img4">
+                    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/132.png" alt="foto do pokemon" width="100%">
+                    <p class="nome-pokemon">nome do pokemon</p>
+                </div>
+                <div class="box-pokedex-img5"">
+                    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/132.png" alt="foto do pokemon" width="100%">
+                    <p class="nome-pokemon">nome do pokemon</p>
+                </div>
+                <div class="box-pokedex-img6">
+                    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/132.png" alt="foto do pokemon" width="100%">
+                    <p class="nome-pokemon">nome do pokemon</p>
+                </div>
+
+function pegandoQuantidadePokemons() {
+    let getValueInput = document.querySelector(".inp input").value 
+    console.log(getValueInput)
+}
